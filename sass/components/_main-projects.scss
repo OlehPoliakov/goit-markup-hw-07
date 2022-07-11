@@ -17,12 +17,12 @@
     line-height: 1.2;
 }
 
-.projects__item:not(:last-child) {
-    margin-right: 30px;
-}
-
 .projects__item {
     position: relative;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .projects__overlay {

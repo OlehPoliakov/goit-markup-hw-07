@@ -24,10 +24,10 @@
 .team {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-}
 
-.team:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .team__person {
@@ -55,10 +55,10 @@
 .team__item {
     text-decoration: none;
     display: inline-block;
-}
 
-.team__item:not(:last-child) {
-    margin-right: 10px;
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
 }
 
 .team__link {
@@ -70,11 +70,11 @@
     align-items: center;
     fill: var(--icon-color);
     transition: 250ms var(--timing-function);
-}
 
-.team__link:hover,
-.team__link:focus {
-    fill: var(--white-text-color);
-    background-color: var(--hover-text-color);
-    border-radius: 50%;
+    &:hover,
+    &:focus {
+        fill: var(--white-text-color);
+            background-color: var(--hover-text-color);
+            border-radius: 50%;
+    }
 }

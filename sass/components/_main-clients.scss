@@ -30,12 +30,13 @@
     display: flex;
     fill: var(--icon-color);
     transition: 250ms var(--timing-function);
-}
-.client__link:hover,
-.client__link:focus {
-    fill: var(--hover-text-color);
-    border: 1px solid #2196F3;
-    outline: none;
+
+    &:hover,
+    &:focus {
+        fill: var(--hover-text-color);
+        border: 1px solid #2196F3;
+        outline: none;
+    }
 }
 .client__image {
     width: 170px;
